@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.temple.paletteactivity3.PaletteFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <GridView
+        android:id="@+id/grdViewColorPalette"
+        android:layout_width="368dp"
+        android:layout_height="505dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp" />
+
+
+</FrameLayout>
