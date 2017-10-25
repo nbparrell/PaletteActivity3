@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="edu.temple.paletteactivity3.MainActivity"
-    android:id="@+id/fragmentContainer">
+    android:id="@+id/fragmentContainer"
+    android:tag = "Standard">
 
 
 </android.support.constraint.ConstraintLayout>

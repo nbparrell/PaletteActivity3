@@ -72,7 +72,7 @@ public class PaletteFragment extends Fragment{
         grd.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                GridView grd = (GridView) parent.findViewById(R.id.grdViewColorPalette);
+                //GridView grd = (GridView) parent.findViewById(R.id.grdViewColorPalette);
                 int color;
                 if (mParam1[position].equals("BLUE") || mParam1[position].equals("AZUL")) {
                     color = parseColor("#0000FF");
